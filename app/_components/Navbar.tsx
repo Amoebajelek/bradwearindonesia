@@ -23,7 +23,7 @@ const Menus = [
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between bg-black px-20 h-20 items-center">
+    <div className="flex justify-between bg-black px-12 h-20 items-center">
       <Link href="/">
         <Image src={Logo} alt="Logo Bradwear" width={128} />
       </Link>
