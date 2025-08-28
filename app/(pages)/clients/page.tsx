@@ -1,9 +1,9 @@
-import Navbar from "./_components/Navbar";
+import React from "react";
 
-export default function Home() {
+export default function page() {
   return (
     <div className="flex flex-col w-full min-h-screen bg-white text-black">
-      <p>homepage</p>
+      <div>clients page</div>
     </div>
   );
 }

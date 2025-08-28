@@ -3,9 +3,10 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 
 import { Analytics } from "@vercel/analytics/next";
+import Navbar from "./_components/Navbar";
 
 const roboto = Roboto({
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
@@ -23,7 +24,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${roboto.className} antialiased`}>
         <Analytics />
-        {children}
+        <>
+          <Navbar />
+          {children}
+        </>
       </body>
     </html>
   );
