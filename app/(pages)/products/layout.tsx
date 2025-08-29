@@ -4,5 +4,5 @@ export const metadata = {
 };
 
 export default function Layout({ children }: any) {
-  return <main>{children}</main>;
+  return <main className="min-h-screen">{children}</main>;
 }
