@@ -1,6 +1,4 @@
-import React from "react";
 import Navbar from "@/app/_components/Navbar";
-import Footer from "@/app/_components/Footer";
 
 export default function page() {
   return (
@@ -9,7 +7,6 @@ export default function page() {
       <div className="flex flex-col text-black px-20 py-12">
         <p>products page</p>
       </div>
-      <Footer />
     </div>
   );
 }

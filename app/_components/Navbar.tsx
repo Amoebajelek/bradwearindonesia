@@ -23,11 +23,11 @@ const Menus = [
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between bg-black px-12 h-20 items-center">
+    <div className="flex justify-between bg-black px-12 h-18 items-center">
       <Link href="/">
         <Image src={Logo} alt="Logo Bradwear" width={128} />
       </Link>
-      <div className="flex gap-12 uppercase font-semibold text-sm">
+      <div className="flex gap-8 uppercase font-medium text-xs">
         {Menus.map((menu) => (
           <Link href={menu.link} key={menu.id}>
             {menu.title}
