@@ -93,7 +93,7 @@ export default function Products() {
               />
             </figure>
             <div className="card-body p-4 pt-0 gap-0">
-              <p className="card-title uppercase text-2xl font-bold text-green-500">
+              <p className="card-title uppercase text-xl lg:text-2xl font-bold text-green-500">
                 {product.name}
               </p>
               <p className="text-slate-500 text-xs font-medium">

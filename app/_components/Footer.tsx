@@ -61,7 +61,7 @@ const Getintouch = [
 export default function Footer() {
   return (
     <div className="flex flex-col">
-      <div className="flex justify-between bg-black p-12 h-fit items-center">
+      <div className="flex flex-col md:flex-row justify-between gap-8 bg-black p-6 lg:p-12 h-fit">
         <div className="flex flex-col gap-2">
           <Link href="/">
             <Image src={Logo} alt="Logo Bradwear" width={240} />
@@ -71,10 +71,10 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="flex gap-24">
-          <div className="flex flex-col gap-1 text-white">
-            <h4 className="uppercase font-semibold text-sm">Categories</h4>
-            <div className="flex flex-col gap-1 uppercase font-regular text-sm ">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-24">
+          <div className="flex flex-col gap-2 text-white">
+            <h4 className="uppercase font-semibold text-xs lg:text-sm">Categories</h4>
+            <div className="flex flex-col gap-2 uppercase font-light text-xs lg:text-sm">
               {Categories.map((cat) => (
                 <Link href={cat.link} key={cat.id}>
                   {cat.title}
@@ -82,9 +82,9 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div className="flex flex-col gap-1 text-white">
-            <h4 className="uppercase font-semibold text-sm">Products</h4>
-            <div className="flex flex-col gap-1 uppercase font-regular text-sm ">
+          <div className="flex flex-col gap-2 text-white">
+            <h4 className="uppercase font-semibold text-xs lg:text-sm">Products</h4>
+            <div className="flex flex-col gap-2 uppercase font-light text-xs lg:text-sm">
               {Products.map((prod) => (
                 <Link href={prod.link} key={prod.id}>
                   {prod.title}
@@ -92,9 +92,9 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div className="flex flex-col gap-1 text-white max-w-[480px]">
-            <h4 className="uppercase font-semibold text-sm">Get In Touch</h4>
-            <div className="flex flex-col gap-1 uppercase font-regular text-sm ">
+          <div className="flex flex-col gap-2 text-white max-w-[480px]">
+            <h4 className="uppercase font-semibold text-xs lg:text-sm">Get In Touch</h4>
+            <div className="flex flex-col gap-2 uppercase font-light text-xs lg:text-sm">
               {Getintouch.map((getintouch) => (
                 <p key={getintouch.id}>{getintouch.title}</p>
               ))}

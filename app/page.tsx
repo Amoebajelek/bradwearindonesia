@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full min-h-screen bg-slate-50">
       <Navbar />
-      <div className="flex flex-col w-full p-20 justify-center gap-5">
+      <div className="flex flex-col min-h-lvh w-full p-6 lg:p-20 justify-start gap-5">
         <div className="flex flex-col gap-0">
-          <p className="uppercase text-sm font-regular text-gray-500">
+          <p className="uppercase text-xs lg:text-sm font-regular text-gray-500">
             best sellers
           </p>
-          <h2 className="uppercase text-4xl font-bold">comfort every day</h2>
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold">comfort every day</h2>
         </div>
         <Products />
         <div className="card-actions justify-center">
