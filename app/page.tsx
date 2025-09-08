@@ -1,3 +1,4 @@
+import Footer from "./_components/Footer";
 import Navbar from "./_components/Navbar";
 import Products from "./_components/Products";
 import Link from "next/link";
@@ -22,6 +23,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
