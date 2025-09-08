@@ -3,6 +3,10 @@ export const metadata = {
   description: "Products Page",
 };
 
-export default function Layout({ children }: any) {
-  return <main className="min-h-screen">{children}</main>;
+export default function ProductLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return <section>{children}</section>
 }
