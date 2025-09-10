@@ -95,15 +95,15 @@ export default function AllProducts() {
       {/* End Title */}
 
       {/* Categories */}
-      <div className="flex flex-col gap-2">
-        <div className="flex gap-4">
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-wrap w-full gap-2">
           <div className="flex w-fit px-6 py-3 bg-white border border-solid border-gray-100">
             <p className="uppercase text-xs lg:text-sm font-regular text-black">
               ALL
             </p>
           </div>
           <div className="flex w-fit px-6 py-3 bg-black">
-            <p className="uppercase text-xs lg:text-sm font-regular text-white">
+            <p className="uppercase text-xs lg:text-sm font-medium text-white">
               WORKSHIRT
             </p>
           </div>

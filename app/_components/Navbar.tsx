@@ -23,7 +23,7 @@ const Menus = [
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center lg:justify-between bg-black px-12 h-18 items-center">
+    <div className="flex flex-col md:flex-row justify-center md:justify-between bg-black px-12 h-fit py-4 gap-4 md:gap-0 md:py-0 md:h-18 items-center">
       
       {/* Logo */}
       <Link href="/">
@@ -32,7 +32,7 @@ export default function Navbar() {
       {/* End Logo */}
       
       {/* Menus */}
-      <div className="hidden lg:flex gap-8 uppercase font-medium text-xs text-white">
+      <div className="flex gap-8 uppercase font-medium text-xs text-white">
         {Menus.map((menu) => (
           <Link href={menu.link} key={menu.id}>
             {menu.title}
