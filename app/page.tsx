@@ -15,7 +15,7 @@ export default function Home() {
       <div className="flex flex-col h-fit w-full px-6 py-12 lg:p-20 justify-start gap-5">
         <Products />
         <div className="card-actions justify-center">
-          <Link href="#">
+          <Link href="/products">
             <button className="btn border-none bg-green-500 text-white">
               View more
             </button>
