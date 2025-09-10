@@ -62,6 +62,8 @@ export default function Footer() {
   return (
     <div className="flex flex-col">
       <div className="flex flex-col md:flex-row justify-between gap-8 bg-black p-6 lg:p-12 h-fit">
+        
+        {/* Logo */}
         <div className="flex flex-col gap-2">
           <Link href="/">
             <Image src={Logo} alt="Logo Bradwear" width={240} />
@@ -70,7 +72,9 @@ export default function Footer() {
             Stay Bold. Stay Bradwear.
           </p>
         </div>
+        {/* End Logo */}
 
+        {/* Menus */}
         <div className="flex flex-col md:flex-row gap-8 md:gap-24">
           <div className="flex flex-col gap-2 text-white">
             <h4 className="uppercase font-semibold text-xs">Categories</h4>
@@ -101,12 +105,18 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        {/* End Menus */}
+        
       </div>
+
+      {/* Footer */}
       <div className="flex justify-center bg-black py-6 border-t-1 border-gray-800">
         <p className="font-light text-xs text-white">
           © 2025 Bradwear Indonesia — Built for the Streets, Worn with Pride.
         </p>
       </div>
+      {/* End Footer */}
+
     </div>
   );
 }

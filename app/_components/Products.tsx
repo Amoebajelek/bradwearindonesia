@@ -79,6 +79,8 @@ const products = [
 export default function Products() {
   return (
     <div className="flex flex-col gap-5">
+
+      {/* Title */}
       <div className="flex flex-col gap-0">
         <p className="uppercase text-xs lg:text-sm font-regular text-gray-500">
           best sellers
@@ -87,6 +89,9 @@ export default function Products() {
           comfort every day
         </h2>
       </div>
+      {/* End Title */}
+
+      {/* Content */}
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3">
         {products.map((product) => (
           <div className="card bg-white shadow-sm" key={product.id}>
@@ -111,6 +116,8 @@ export default function Products() {
           </div>
         ))}
       </div>
+      {/*End Content */}
+      
     </div>
   );
 }

@@ -24,9 +24,14 @@ const Menus = [
 export default function Navbar() {
   return (
     <div className="flex justify-center lg:justify-between bg-black px-12 h-18 items-center">
+      
+      {/* Logo */}
       <Link href="/">
         <Image src={Logo} alt="Logo Bradwear" width={128} />
       </Link>
+      {/* End Logo */}
+      
+      {/* Menus */}
       <div className="hidden lg:flex gap-8 uppercase font-medium text-xs text-white">
         {Menus.map((menu) => (
           <Link href={menu.link} key={menu.id}>
@@ -34,6 +39,8 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
+      {/* End Menus */}
+      
     </div>
   );
 }
