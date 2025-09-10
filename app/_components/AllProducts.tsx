@@ -1,84 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
-const products = [
-  {
-    id: 1,
-    name: "Series Ventura",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    image: "/Carousel-1.jpg",
-  },
-  {
-    id: 2,
-    name: "Series Yuroi",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    image: "/Carousel-2.jpg",
-  },
-  {
-    id: 3,
-    name: "Series 3",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    image: "/Carousel-3.jpg",
-  },
-  {
-    id: 4,
-    name: "Series PDH",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    image: "/Carousel-3.jpg",
-  },
-  {
-    id: 5,
-    name: "Series Robotic",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    image: "/Carousel-3.jpg",
-  },
-  {
-    id: 6,
-    name: "Series 1",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts|",
-    image: "/Carousel-3.jpg",
-  },
-  {
-    id: 7,
-    name: "Series Strazard",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts|",
-    image: "/Carousel-3.jpg",
-  },
-  {
-    id: 8,
-    name: "Series Strazard",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts|",
-    image: "/Carousel-3.jpg",
-  },
-  {
-    id: 9,
-    name: "Series 2",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts|",
-    image: "/Carousel-3.jpg",
-  },
-  {
-    id: 10,
-    name: "Series Brad V-2",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts|",
-    image: "/Carousel-3.jpg",
-  },
-  {
-    id: 11,
-    name: "Series Brad V-1",
-    sells: "2RB+ terjual",
-    desc: "A card component has a figure, a body part, and inside body there are title and actions parts|",
-    image: "/Carousel-3.jpg",
-  },
-];
+import Db from "@/utils/db.json"
 
 export default function AllProducts() {
   return (
@@ -136,27 +59,29 @@ export default function AllProducts() {
 
       {/* Content */}
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3">
-        {products.map((product) => (
-          <div className="card bg-white shadow-sm" key={product.id}>
-            <figure>
-              <Image
-                src={product.image}
-                alt="Product 1"
-                className="w-full"
-                width={360}
-                height={24}
-                loading="lazy"
-              />
-            </figure>
-            <div className="card-body p-4 pt-0 gap-0">
-              <p className="card-title uppercase text-xl lg:text-2xl font-bold text-green-500">
-                {product.name}
-              </p>
-              <p className="text-slate-500 text-xs font-medium">
-                {product.sells}
-              </p>
+        {Db.map((e) => (
+          <Link href={`/products/${e.id}`} key={e.id}>
+            <div className="card bg-white shadow-sm">
+              <figure>
+                <Image
+                  src={e.image}
+                  alt="Product 1"
+                  className="w-full"
+                  width={360}
+                  height={24}
+                  loading="lazy"
+                />
+              </figure>
+              <div className="card-body p-4 pt-0 gap-0">
+                <p className="card-title uppercase text-xl lg:text-2xl font-bold text-green-500">
+                  {e.name}
+                </p>
+                <p className="text-slate-500 text-xs font-medium">
+                  {e.sells}
+                </p>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
       {/*End Content */}

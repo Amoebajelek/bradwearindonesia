@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "name": "Series Ventura",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-1.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 1,
+    "name": "Series Yuroi",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-2.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 2,
+    "name": "Series 3",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-3.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 3,
+    "name": "Series PDH",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-4.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 4,
+    "name": "Series Robotic",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-5.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 5,
+    "name": "Series 4",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-4.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 6,
+    "name": "Series Strazard",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-3.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 7,
+    "name": "Series 2",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-2.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 8,
+    "name": "Series V-2",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-1.jpg",
+    "category": ["all", "workshirt"]
+  },
+  {
+    "id": 9,
+    "name": "Series V-1",
+    "sells": "2RB+ terjual",
+    "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
+    "image": "/Carousel-2.jpg",
+    "category": ["all", "workshirt"]
+  }
+]
