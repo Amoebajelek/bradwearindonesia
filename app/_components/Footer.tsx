@@ -2,6 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Logo from "@/public/logo.jpg";
+import IconInstagram from "@/public/icon-instagram.svg";
+import IconWhatsapp from "@/public/icon-whatsapp.svg";
+import IconTiktok from "@/public/icon-tiktok.svg";
+import iconEmail from "@/public/icon-email.svg";
 
 const Categories = [
   {
@@ -62,7 +66,6 @@ export default function Footer() {
   return (
     <div className="flex flex-col">
       <div className="flex flex-col md:flex-row justify-between gap-8 bg-black p-6 lg:p-12 h-fit">
-        
         {/* Logo */}
         <div className="flex flex-col gap-2">
           <Link href="/">
@@ -71,6 +74,56 @@ export default function Footer() {
           <p className="text-sm uppercase font-semibold text-white">
             Stay Bold. Stay Bradwear.
           </p>
+          <div className="flex gap-1">
+            <Link
+              href="https://www.instagram.com/bradwear_indonesia"
+              target="_blank"
+            >
+              <Image
+                src={IconInstagram}
+                alt="Icon Instagram"
+                width={24}
+                height={24}
+                loading="lazy"
+              />
+            </Link>
+            <Link
+              href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FbradwearIndonesia%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAadnU5Xv4LSJSNMMyYliwxQeBzllEwaB92aAyxESkS_6p-IFBhL32qyHuLfHrw_aem_55YGzowIY3lP7DNMml64ew&e=AT3AqCgf7EmKZb5_k4oNQRDb9OzmL-GkKaZzMzsbY0enZ8VeW6dKXgvEEfpo6UjBxkVibRjZEkMuY3ViRL2kMKRADDwjmnITgvIz14mxDQ"
+              target="_blank"
+            >
+              <Image
+                src={IconWhatsapp}
+                alt="Icon Instagram"
+                width={24}
+                height={24}
+                loading="lazy"
+              />
+            </Link>
+            <Link
+              href="https://l.instagram.com/?u=https%3A%2F%2Fwww.tiktok.com%2F%40bradwearindonesia%3F_t%3DZS-8xXp87In0z9%26_r%3D1%26fbclid%3DPAZXh0bgNhZW0CMTEAAafcuTMws96_dTZDNHydBbfddCy8f7rbZk8R9lQl0ucSNcOTT2gwnOHtpYYyKA_aem_amW39md3i80fQIehxJksWQ&e=AT1YLiO8ftoPZzhh1zf6HkqBZDl93EvdhOuWp5YQnKJx_sAQop-f2AFAV7HZTxG0vdF2EX-olmbEIHgBsiZQrQKlCbt1DVxqV5kgfIOIUw"
+              target="_blank"
+            >
+              <Image
+                src={IconTiktok}
+                alt="Icon Instagram"
+                width={24}
+                height={24}
+                loading="lazy"
+              />
+            </Link>
+            <Link
+              href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2F%40gilang_setianugraha%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaeRlQBgjieFYtNP4mX1s2r4fBnV2tZ84B8GGtNtAJ9sVuaj73qECGYS3qgkbw_aem_1cGd11tOYw4X6EoDaS5wCQ&e=AT3KlqTC2CaxaxR6xGsBK0hv0A9AazFon-zBlNCnzGOGIPqbf1gAR-a9pg6Rp5sMCWqwVQCqqB8tYwGlY8fG28TfOr4JiO-FUIq69nm3Zw"
+              target="_blank"
+            >
+              <Image
+                src={iconEmail}
+                alt="Icon Instagram"
+                width={24}
+                height={24}
+                loading="lazy"
+              />
+            </Link>
+          </div>
         </div>
         {/* End Logo */}
 
@@ -106,7 +159,6 @@ export default function Footer() {
           </div>
         </div>
         {/* End Menus */}
-        
       </div>
 
       {/* Footer */}
@@ -116,7 +168,6 @@ export default function Footer() {
         </p>
       </div>
       {/* End Footer */}
-
     </div>
   );
 }
