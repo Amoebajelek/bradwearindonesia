@@ -13,13 +13,13 @@ export default function page() {
       {/* End Navbar */}
 
       {/* Contents */}
-      <div className="flex flex-col h-full w-full px-6 py-12 lg:p-20 justify-start gap-5">
+      <div className="flex flex-col h-full w-full px-6 py-12 lg:p-20 justify-start gap-12">
         {/* Content 1 */}
-        <div className="flex w-full justify-center gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-3/12">
+        <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
             Get to know
           </h2>
-          <div className="flex flex-col gap-2 w-4/12">
+          <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
             <p className="text-xs lg:text-sm/6 font-regular">
               CV. ASTHAJAYA BRADERINDO is a licensed company specializing in the
               production of official uniforms, operating under the BRADWEAR
@@ -37,11 +37,11 @@ export default function page() {
         </div>
         {/* End Content 1 */}
         {/* Content 2 */}
-        <div className="flex w-full justify-center gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-3/12">
+        <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
             Vision and Missions
           </h2>
-          <div className="flex flex-col gap-2 w-4/12">
+          <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
             <p className="text-xs lg:text-sm/6 font-regular">
               To become the leading uniform manufacturing company in Indonesia
               by prioritizing quality, innovation, timeliness, and customer
@@ -65,12 +65,12 @@ export default function page() {
         </div>
         {/* End Content 2 */}
         {/* Content 3 */}
-        <div className="flex w-full justify-center gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-3/12">
+        <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
             PRODUCT AND SERVICES
           </h2>
-          <div className="flex flex-col gap-2 w-4/12 ps-4">
-            <ul className="list-decimal text-xs lg:text-sm/6 font-regular">
+          <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
+            <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-4">
               <li>Government Uniforms (PNS, TNI, POLRI, Satpol PP, etc.)</li>
               <li>
                 Work Uniforms for Companies (BUMN, private companies, startups)
@@ -88,12 +88,12 @@ export default function page() {
         </div>
         {/* End Content 3 */}
         {/* Content 4 */}
-        <div className="flex w-full justify-center gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-3/12">
+        <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
             COMPETITIVE ADVANTAGES
           </h2>
-          <div className="flex flex-col gap-2 w-4/12 ps-4">
-            <ul className="list-decimal text-xs lg:text-sm/6 font-regular">
+          <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
+            <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-4">
               <li> High-quality materials that are comfortable and durable</li>
               <li>Neat and precise stitching by professionals</li>
               <li>Competitive prices with maximum quality</li>
@@ -103,12 +103,12 @@ export default function page() {
         </div>
         {/* End Content 4 */}
         {/* Content 5 */}
-        <div className="flex w-full justify-center gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-3/12">
+        <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
             CLIENTS & REACH
           </h2>
-          <div className="flex flex-col gap-4 w-4/12 ps-4">
-            <ul className="list-decimal text-xs lg:text-sm/6 font-regular">
+          <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
+            <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-4">
               <li>
                 Trusted by various client sectors throughout Indonesia,
                 including:
@@ -191,17 +191,17 @@ export default function page() {
                 loading="lazy"
               />
             </div>
-            <Link
-              href="https://ugc.production.linktr.ee/523dfb34-230c-4930-a976-75f404e3615f_COMPANY-PROFILE-CV.-ASTHAJAYA-BRADERINDO-.pdf"
-              target="_blank"
-            >
-              <button className="btn border-none bg-green-500 text-white w-full">
-                Download
-              </button>
-            </Link>
           </div>
         </div>
         {/* End Content 4 */}
+        <Link
+          href="https://ugc.production.linktr.ee/523dfb34-230c-4930-a976-75f404e3615f_COMPANY-PROFILE-CV.-ASTHAJAYA-BRADERINDO-.pdf"
+          target="_blank"
+        >
+          <button className="btn border-none bg-green-500 text-white w-full">
+            Download
+          </button>
+        </Link>
       </div>
       {/* End Content */}
 
