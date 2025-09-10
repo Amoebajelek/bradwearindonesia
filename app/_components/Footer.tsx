@@ -73,8 +73,8 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row gap-8 md:gap-24">
           <div className="flex flex-col gap-2 text-white">
-            <h4 className="uppercase font-semibold text-xs lg:text-sm">Categories</h4>
-            <div className="flex flex-col gap-2 uppercase font-light text-xs lg:text-sm">
+            <h4 className="uppercase font-semibold text-xs">Categories</h4>
+            <div className="flex flex-col gap-2 uppercase font-light text-xs">
               {Categories.map((cat) => (
                 <Link href={cat.link} key={cat.id}>
                   {cat.title}
@@ -83,8 +83,8 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-2 text-white">
-            <h4 className="uppercase font-semibold text-xs lg:text-sm">Products</h4>
-            <div className="flex flex-col gap-2 uppercase font-light text-xs lg:text-sm">
+            <h4 className="uppercase font-semibold text-xs">Products</h4>
+            <div className="flex flex-col gap-2 uppercase font-light text-xs">
               {Products.map((prod) => (
                 <Link href={prod.link} key={prod.id}>
                   {prod.title}
@@ -93,8 +93,8 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-2 text-white max-w-[480px]">
-            <h4 className="uppercase font-semibold text-xs lg:text-sm">Get In Touch</h4>
-            <div className="flex flex-col gap-2 uppercase font-light text-xs lg:text-sm">
+            <h4 className="uppercase font-semibold text-xs">Get In Touch</h4>
+            <div className="flex flex-col gap-2 uppercase font-light text-xs">
               {Getintouch.map((getintouch) => (
                 <p key={getintouch.id}>{getintouch.title}</p>
               ))}
