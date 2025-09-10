@@ -1,7 +1,7 @@
 import Footer from "./_components/Footer";
-import HeroBanner from "./_components/HeroBanner";
+// import HeroBanner from "./_components/HeroBanner";
 import Navbar from "./_components/Navbar";
-// import Order from "./_components/Order";
+import Order from "./_components/Order";
 import Products from "./_components/Products";
 import Link from "next/link";
 
@@ -19,8 +19,8 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <HeroBanner />
-      {/* <Order /> */}
+      {/* <HeroBanner /> */}
+      <Order />
       <Footer />
     </div>
   );
