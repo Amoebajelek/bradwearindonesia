@@ -78,7 +78,15 @@ const products = [
 
 export default function Products() {
   return (
-    <>
+    <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-0">
+        <p className="uppercase text-xs lg:text-sm font-regular text-gray-500">
+          best sellers
+        </p>
+        <h2 className="uppercase text-2xl lg:text-4xl font-bold">
+          comfort every day
+        </h2>
+      </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3">
         {products.map((product) => (
           <div className="card bg-white shadow-sm" key={product.id}>
@@ -103,6 +111,6 @@ export default function Products() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
