@@ -120,16 +120,76 @@ export default function page() {
               <li>Community Organizations</li>
             </ul>
             <div className="flex flex-wrap w-full gap-4">
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
-              <Image src={Client1} alt="client 1" height={80} width={80} />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
+              <Image
+                src={Client1}
+                alt="client 1"
+                height={80}
+                width={80}
+                loading="lazy"
+              />
             </div>
             <Link
               href="https://ugc.production.linktr.ee/523dfb34-230c-4930-a976-75f404e3615f_COMPANY-PROFILE-CV.-ASTHAJAYA-BRADERINDO-.pdf"
