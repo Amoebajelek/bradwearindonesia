@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Hero from "@/public/HeroBanner.jpg";
 
