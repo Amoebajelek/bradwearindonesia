@@ -10,7 +10,7 @@ export default function page() {
       {/* End Navbar */}
 
       {/* Contents */}
-      <div className="flex flex-col h-fit w-full px-6 py-12 lg:p-20 justify-start gap-5">
+      <div className="flex flex-col h-lvh w-full px-6 py-12 lg:p-20 justify-start gap-5">
        
       </div>
       {/* End Content */}
