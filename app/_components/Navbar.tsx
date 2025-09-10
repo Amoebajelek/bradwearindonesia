@@ -7,7 +7,7 @@ const Menus = [
   {
     id: 1,
     title: "Products",
-    link: "#",
+    link: "/products",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const Menus = [
   {
     id: 3,
     title: "About Us",
-    link: "#",
+    link: "/about-us",
   },
 ];
 
