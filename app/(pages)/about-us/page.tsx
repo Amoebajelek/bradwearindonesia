@@ -16,7 +16,7 @@ export default function page() {
       <div className="flex flex-col h-full w-full px-6 py-12 lg:p-20 justify-start gap-12">
         {/* Content 1 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
             Get to know
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
@@ -38,7 +38,7 @@ export default function page() {
         {/* End Content 1 */}
         {/* Content 2 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
             Vision and Missions
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
@@ -66,7 +66,7 @@ export default function page() {
         {/* End Content 2 */}
         {/* Content 3 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
             PRODUCT AND SERVICES
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
@@ -89,7 +89,7 @@ export default function page() {
         {/* End Content 3 */}
         {/* Content 4 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
             COMPETITIVE ADVANTAGES
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
@@ -104,7 +104,7 @@ export default function page() {
         {/* End Content 4 */}
         {/* Content 5 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
-          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/1 lg:w-3/12">
+          <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
             CLIENTS & REACH
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
