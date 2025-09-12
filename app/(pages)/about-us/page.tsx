@@ -1,9 +1,61 @@
+import Image from "next/image";
+import Link from "next/link";
+
 import Footer from "@/app/_components/Footer";
 import Navbar from "@/app/_components/Navbar";
-import Image from "next/image";
 
-import Client1 from "@/public/client-1.png";
-import Link from "next/link";
+const clients = [
+  {
+    id: 1,
+    name: "client 1",
+    src: "/client-1.png",
+  },
+  {
+    id: 2,
+    name: "client 2",
+    src: "/client-2.png",
+  },
+  {
+    id: 3,
+    name: "client 3",
+    src: "/client-3.png",
+  },
+  {
+    id: 4,
+    name: "client 4",
+    src: "/client-4.png",
+  },
+  {
+    id: 5,
+    name: "client 5",
+    src: "/client-5.png",
+  },
+  {
+    id: 6,
+    name: "client 6",
+    src: "/client-6.png",
+  },
+  {
+    id: 7,
+    name: "client 7",
+    src: "/client-7.png",
+  },
+  {
+    id: 8,
+    name: "client 8",
+    src: "/client-8.png",
+  },
+  {
+    id: 9,
+    name: "client 9",
+    src: "/client-9.png",
+  },
+  {
+    id: 10,
+    name: "client 10",
+    src: "/client-10.png",
+  },
+];
 
 export default function page() {
   return (
@@ -120,76 +172,18 @@ export default function page() {
               <li>Community Organizations</li>
             </ul>
             <div className="flex flex-wrap w-full gap-4">
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
-              <Image
-                src={Client1}
-                alt="client 1"
-                height={80}
-                width={80}
-                loading="lazy"
-              />
+              {clients.map((e) => (
+                <div className="flex w-20 h-20" key={e.id}>
+                  <Image
+                    src={e.src}
+                    alt={e.name}
+                    height={24}
+                    width={80}
+                    loading="lazy"
+                    className="object-contain"
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>
