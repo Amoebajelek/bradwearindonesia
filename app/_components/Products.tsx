@@ -22,15 +22,15 @@ export default function Products() {
           <div className="card bg-white shadow-sm" key={e.id}>
             <figure>
               <Image
-                src={e.image}
-                alt="Product 1"
+                src={e.src}
+                alt={e.name}
                 className="w-full"
                 width={360}
                 height={24}
                 loading="lazy"
               />
             </figure>
-            <div className="card-body p-4 pt-0 gap-0">
+            <div className="card-body p-4 gap-0">
               <p className="card-title uppercase text-xl lg:text-2xl font-bold text-green-500">
                 {e.name}
               </p>

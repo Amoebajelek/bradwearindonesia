@@ -64,7 +64,7 @@ export default function AllProducts() {
             <div className="card bg-white shadow-sm">
               <figure>
                 <Image
-                  src={e.image}
+                  src={e.src}
                   alt="Product 1"
                   className="w-full"
                   width={360}
@@ -72,7 +72,7 @@ export default function AllProducts() {
                   loading="lazy"
                 />
               </figure>
-              <div className="card-body p-4 pt-0 gap-0">
+              <div className="card-body p-4 gap-0">
                 <p className="card-title uppercase text-xl lg:text-2xl font-bold text-green-500">
                   {e.name}
                 </p>
