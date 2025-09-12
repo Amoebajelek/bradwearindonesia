@@ -68,7 +68,7 @@ export default async function Page({
         {/* End Header */}
         {/* Images */}
         <div className="flex flex-col md:flex-row w-full justify-center items-center gap-8">
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             <Image
               alt={product!.name}
               src={product!.src}
