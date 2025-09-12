@@ -12,7 +12,7 @@ const Menus = [
   {
     id: 2,
     title: "Clients",
-    link: "#",
+    link: "/clients",
   },
   {
     id: 3,
