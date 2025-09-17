@@ -7,8 +7,7 @@ import Link from "next/link";
 
 import Size from "@/public/size-chart-kemeja.jpeg";
 import Model from "@/public/model-series-ventura.jpeg";
-import Fabric from "@/public/spesifik-bahan-kain.jpeg"
-
+import Fabric from "@/public/spesifik-bahan-kain.jpeg";
 
 export default async function Page({
   params,
@@ -26,10 +25,10 @@ export default async function Page({
       {/* End Navbar */}
 
       {/* Contents */}
-      <div className="flex flex-col h-fit w-full px-6 py-12 lg:p-20 justify-start gap-5">
+      <div className="flex flex-col h-fit w-full px-6 py-12 lg:p-20 justify-center items-center gap-5">
         {/* Link */}
-        <div className="flex w-full justify-center">
-          <Link href="/products" className="w-full md:w-8/12">
+        <div className="flex justify-center md:justify-start w-full md:w-10/12 lg:w-1/2">
+          <Link href="/products">
             <p className="uppercase text-xs lg:text-sm font-regular text-gray-500">
               / Products /{" "}
               <span className="font-semibold">{product?.name}</span>
@@ -37,22 +36,20 @@ export default async function Page({
           </Link>
         </div>
         {/* End Link */}
-        {/* Header */}
-        <div className="flex justify-center">
-          <div className="flex w-full md:w-6/12">
-            {/* Title */}
-            <div className="flex flex-col gap-0">
-              <h2 className="uppercase text-2xl lg:text-4xl font-bold">
-                {product?.name}
-              </h2>
-              <p className="text-xs lg:text-sm font-regular text-gray-500">
-                {product?.sells} · (4.9) *****
-              </p>
-            </div>
-            {/* End Title */}
+        {/* Top */}
+        <div className="flex flex-col md:flex-row justify-between w-full md:w-10/12 lg:w-1/2 gap-4 md:gap-0">
+          {/* Title */}
+          <div className="flex flex-col gap-0 w-full items-center md:items-start">
+            <h2 className="uppercase text-2xl lg:text-4xl font-bold">
+              {product?.name}
+            </h2>
+            <p className="text-xs lg:text-sm font-regular text-gray-500">
+              {product?.sells} · (4.9) *****
+            </p>
           </div>
+          {/* End Title */}
           {/* Order Button */}
-          <div className="hidden md:flex w-2/12 items-center">
+          <div className="flex items-center w-full md:w-1/3">
             <Link
               href="https://linktr.ee/bradwearIndonesia"
               target="_blank"
@@ -65,53 +62,66 @@ export default async function Page({
           </div>
           {/* End Order Button */}
         </div>
-        {/* End Header */}
+        {/* End Top */}
         {/* Images */}
-        <div className="flex flex-col md:flex-row w-full justify-center items-center gap-8">
-          <div className="flex flex-wrap gap-2">
+        <div className="flex flex-col lg:flex-row w-full md:w-10/12 lg:w-1/2 justify-center items-center lg:items-start gap-4">
+          <div>
             <Image
               alt={product!.name}
               src={product!.src}
               height={24}
-              width={320}
+              width={280}
               loading="lazy"
-              className=""
-            />
-            <Image
-              alt={product!.name}
-              src={product!.src}
-              height={24}
-              width={320}
-              loading="lazy"
-              className=""
-            />
-            <Image
-              alt={product!.name}
-              src={product!.src}
-              height={24}
-              width={320}
-              loading="lazy"
-              className=""
+              className="object-cover"
             />
           </div>
-          {/* Order Button */}
-          <div className="flex md:hidden w-full items-center">
-            <Link
-              href="https://linktr.ee/bradwearIndonesia"
-              target="_blank"
-              className="flex w-full"
-            >
-              <button className="btn border-none bg-green-500 text-white w-full">
-                Checkout
-              </button>
-            </Link>
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-3 gap-2 h-fit">
+            <Image
+              alt={product!.name}
+              src={product!.src}
+              height={0}
+              width={120}
+              loading="lazy"
+              className="object-cover"
+            />
+            <Image
+              alt={product!.name}
+              src={product!.src}
+              height={0}
+              width={120}
+              loading="lazy"
+              className="object-cover"
+            />
+            <Image
+              alt={product!.name}
+              src={product!.src}
+              height={0}
+              width={120}
+              loading="lazy"
+              className="object-cover"
+            />
+            <Image
+              alt={product!.name}
+              src={product!.src}
+              height={0}
+              width={120}
+              loading="lazy"
+              className="object-cover"
+            />
+            <Image
+              alt={product!.name}
+              src={product!.src}
+              height={0}
+              width={120}
+              loading="lazy"
+              className="object-cover"
+            />
           </div>
-          {/* End Order Button */}
         </div>
         {/* End Images */}
         {/* Desc */}
-        <div className="flex flex-col w-full h-fit items-center gap-4">
-          <p className="text-xs lg:text-sm/6 font-regular w-full md:w-6/12">
+        <div className="flex flex-col items-center gap-4 w-full md:w-10/12 lg:w-1/2 h-fit">
+          <p className="text-xs w-full">
             Stay ready for any mission with our Tactical Shirt — designed for
             durability, comfort, and performance. Made with high-quality
             breathable fabric, this shirt features multiple functional pockets,
@@ -119,7 +129,7 @@ export default async function Page({
             movement. Perfect for outdoor activities, fieldwork, or professional
             use, it combines utility with a sharp, professional look.
           </p>
-          <div className="flex flex-col w-full md:w-6/12">
+          <div className="flex flex-col w-full">
             <p className="text-xs lg:text-sm/6 font-regular">Key Features</p>
             <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-6">
               <li>Durable and breathable material</li>
