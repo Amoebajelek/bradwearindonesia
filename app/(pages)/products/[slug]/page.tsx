@@ -4,6 +4,8 @@ import Navbar from "@/app/_components/Navbar";
 import Db from "@/utils/db.json";
 import Image from "next/image";
 import Link from "next/link";
+import { BsArrowLeft } from "react-icons/bs";
+import { BsFillStarFill } from "react-icons/bs";
 
 import Size from "@/public/size-chart-kemeja.jpeg";
 import Model from "@/public/model-series-ventura.jpeg";
@@ -28,8 +30,9 @@ export default async function Page({
       <div className="flex flex-col h-fit w-full px-6 py-12 lg:p-20 justify-center items-center gap-5">
         {/* Link */}
         <div className="flex justify-center md:justify-start w-full md:w-10/12 lg:w-1/2">
-          <Link href="/products">
-            <p className="uppercase text-xs lg:text-sm font-regular text-gray-500">
+          <Link href="/products" className="flex gap-2 text-xs lg:text-sm items-center">
+            <BsArrowLeft />
+            <p className="uppercase font-regular text-gray-500">
               / Products /{" "}
               <span className="font-semibold">{product?.name}</span>
             </p>
@@ -43,9 +46,18 @@ export default async function Page({
             <h2 className="uppercase text-2xl lg:text-4xl font-bold">
               {product?.name}
             </h2>
-            <p className="text-xs lg:text-sm font-regular text-gray-500">
-              {product?.sells} · (4.9) *****
-            </p>
+            <div className="flex gap-1 items-center">
+              <p className="text-xs lg:text-sm font-regular text-gray-500">
+                {product?.sells} ·{" "}
+              </p>
+              <div className="flex gap-1 text-yellow-400 text-xs lg:text-sm">
+                <BsFillStarFill />
+                <BsFillStarFill />
+                <BsFillStarFill />
+                <BsFillStarFill />
+                <BsFillStarFill />
+              </div>
+            </div>
           </div>
           {/* End Title */}
           {/* Order Button */}
