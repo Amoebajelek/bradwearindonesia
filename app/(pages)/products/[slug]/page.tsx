@@ -82,12 +82,12 @@ export default async function Page({
               alt={product!.name}
               src={product!.src}
               height={24}
-              width={280}
+              width={360}
               loading="lazy"
               className="object-cover"
             />
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-3 gap-2 h-fit">
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-4 gap-2 h-fit">
             <Image
               alt={product!.name}
               src={product!.src}
@@ -133,7 +133,7 @@ export default async function Page({
         {/* End Images */}
         {/* Desc */}
         <div className="flex flex-col items-center gap-4 w-full md:w-10/12 lg:w-1/2 h-fit">
-          <p className="text-xs w-full">
+          <p className="text-xs lg:text-sm/6 w-full">
             Stay ready for any mission with our Tactical Shirt — designed for
             durability, comfort, and performance. Made with high-quality
             breathable fabric, this shirt features multiple functional pockets,
