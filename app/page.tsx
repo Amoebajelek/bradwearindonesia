@@ -17,7 +17,7 @@ export default function Home() {
         <div className="card-actions justify-center">
           <Link href="/products">
             <button className="btn border-none bg-green-500 text-white">
-              View more
+              Lihat semua
             </button>
           </Link>
         </div>

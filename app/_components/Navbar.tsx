@@ -6,17 +6,17 @@ import Logo from "@/public/logo.jpg";
 const Menus = [
   {
     id: 1,
-    title: "Products",
+    title: "Katalog",
     link: "/products",
   },
   {
     id: 2,
-    title: "Clients",
+    title: "Klien",
     link: "/clients",
   },
   {
     id: 3,
-    title: "About Us",
+    title: "Tentang Kami",
     link: "/about-us",
   },
 ];

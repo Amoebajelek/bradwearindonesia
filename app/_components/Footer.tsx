@@ -6,12 +6,12 @@ import Logo from "@/public/logo.jpg";
 const Categories = [
   {
     id: 1,
-    title: "Jackets",
+    title: "Jaket",
     link: "#",
   },
   {
     id: 2,
-    title: "Shirt",
+    title: "Kemeja",
     link: "#",
   },
   {
@@ -28,7 +28,7 @@ const Categories = [
 const Products = [
   {
     id: 1,
-    title: "Most Popular",
+    title: "Terlaris",
     link: "#",
   },
   {
@@ -38,7 +38,7 @@ const Products = [
   },
   {
     id: 3,
-    title: "Discount up to 50%",
+    title: "Diskon hingga 50%",
     link: "#",
   },
 ];
@@ -117,7 +117,7 @@ export default function Footer() {
         {/* Menus */}
         <div className="flex flex-col md:flex-row gap-8 md:gap-24">
           <div className="flex flex-col gap-2 text-white">
-            <h4 className="uppercase font-semibold text-xs">Categories</h4>
+            <h4 className="uppercase font-semibold text-xs">Kategori</h4>
             <div className="flex flex-col gap-2 uppercase font-light text-xs">
               {Categories.map((cat) => (
                 <Link href={cat.link} key={cat.id}>
@@ -127,7 +127,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-2 text-white">
-            <h4 className="uppercase font-semibold text-xs">Products</h4>
+            <h4 className="uppercase font-semibold text-xs">Produk</h4>
             <div className="flex flex-col gap-2 uppercase font-light text-xs">
               {Products.map((prod) => (
                 <Link href={prod.link} key={prod.id}>
@@ -137,7 +137,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-2 text-white max-w-[480px]">
-            <h4 className="uppercase font-semibold text-xs">Get In Touch</h4>
+            <h4 className="uppercase font-semibold text-xs">Tentang Kami</h4>
             <div className="flex flex-col gap-2 uppercase font-light text-xs">
               {Getintouch.map((getintouch) => (
                 <p key={getintouch.id}>{getintouch.title}</p>

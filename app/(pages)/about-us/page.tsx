@@ -69,22 +69,23 @@ export default function page() {
         {/* Content 1 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
           <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
-            Get to know
+            Tentang kami
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
             <p className="text-xs lg:text-sm/6 font-regular">
-              CV. ASTHAJAYA BRADERINDO is a licensed company specializing in the
-              production of official uniforms, operating under the BRADWEAR
-              brand, which is officially registered with DJKI KEMENKUMHAM. We
-              are strongly committed to delivering only the highest quality
-              products.
+              CV. ASTHAJAYA BRADERINDO adalah konveksi resmi penyedia seragam
+              dinas di Indonesia, beroperasi di bawah merek Bradwear yang
+              terdaftar di DJKI KEMENKUMHAM. Perusahaan ini berkomitmen kuat
+              dalam menyajikan produk berkualitas tinggi dan melayani berbagai
+              kebutuhan seragam dinas untuk instansi pemerintah, perusahaan
+              swasta, sekolah, dan organisasi lainnya.
             </p>
-            <p className="text-xs lg:text-sm/6 font-regular">
+            {/* <p className="text-xs lg:text-sm/6 font-regular">
               We provide custom uniform solutions for government institutions,
               private companies, schools, and various organizations. With years
               of experience in the industry, we continue to grow and innovate to
               ensure the best service and satisfaction for our customers.
-            </p>
+            </p> */}
           </div>
         </div>
         {/* End Content 1 */}
@@ -95,22 +96,18 @@ export default function page() {
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
             <p className="text-xs lg:text-sm/6 font-regular">
-              To become the leading uniform manufacturing company in Indonesia
-              by prioritizing quality, innovation, timeliness, and customer
-              satisfaction.
+              Menjadi perusahaan konveksi seragam dinas terdepan di Indonesia
+              dengan prioritas pada kualitas, inovasi, ketepatan waktu, dan
+              kepuasan pelanggan.
             </p>
             <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-4">
-              <li>Providing uniforms with the highest quality standards.</li>
+              <li>Menyediakan seragam dinas dengan standar kualitas tinggi.</li>
+              <li>Menggunakan bahan nyaman dan tahan lama.</li>
+              <li>Memberikan pelayanan profesional dan tepat waktu</li>
+              <li>Terus berinovasi dalam desain dan teknologi produksi.</li>
               <li>
-                Using the best materials that are comfortable and durable.
-              </li>
-              <li>Delivering professional and timely services.</li>
-              <li>
-                Continuously innovating in design and production technology.
-              </li>
-              <li>
-                Building long-term relationships with clients based on trust and
-                satisfaction.s
+                Menjalin hubungan jangka panjang berdasarkan kepercayaan dan
+                kepuasan-klien.
               </li>
             </ul>
           </div>
@@ -119,21 +116,22 @@ export default function page() {
         {/* Content 3 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
           <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
-            PRODUCT AND SERVICES
+            Produk dan jasa
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
             <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-4">
-              <li>Government Uniforms (PNS, TNI, POLRI, Satpol PP, etc.)</li>
+              <li>Seragam Pemerintah (PNS, TNI, POLRI, Satpol PP, etc.)</li>
               <li>
-                Work Uniforms for Companies (BUMN, private companies, startups)
+                Seragam Kerja untuk Perusahaan (BUMN, private companies,
+                startups)
               </li>
-              <li>Medical Uniforms (doctors, nurses, pharmacists)</li>
-              <li>School and Educational Institution Uniforms</li>
-              <li>Organizational & Community Uniforms</li>
-              <li>Wearpacks (industrial workwear)</li>
+              <li>Seragam Medis (doctors, nurses, pharmacists)</li>
+              <li>Seragam Sekolah dan Institusi Pendidikan</li>
+              <li>Seragam Organisasi dan komunitas</li>
+              <li>Wearpacks (Seragam Kerja Industrir)</li>
               <li>
-                In addition, they also offer custom design services with logo
-                embroidery according to client requests.
+                Selain itu, mereka juga menawarkan layanan custom desain dengan
+                bordir logo sesuai permintaan klien
               </li>
             </ul>
           </div>
@@ -142,14 +140,14 @@ export default function page() {
         {/* Content 4 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
           <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
-            COMPETITIVE ADVANTAGES
+           Keunggulan Kompetitif
           </h2>
           <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
             <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-4">
-              <li> High-quality materials that are comfortable and durable</li>
-              <li>Neat and precise stitching by professionals</li>
-              <li>Competitive prices with maximum quality</li>
-              <li>Customized design services according to client needs</li>
+              <li>Bahan berkualitas tinggi yang nyaman dan tahan lama</li>
+              <li>Jahitan rapi dan presisi oleh tenaga ahli</li>
+              <li>Harga kompetitif dengan kualitas maksimal</li>
+              <li>Layanan kustomasi desain sesuai kebutuhan klien</li>
             </ul>
           </div>
         </div>
@@ -157,19 +155,18 @@ export default function page() {
         {/* Content 5 */}
         <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
           <h2 className="uppercase text-2xl lg:text-4xl font-bold w-full md:w-4/12 lg:w-3/12">
-            CLIENTS & REACH
+           Klien dan Jangkauan
           </h2>
-          <div className="flex flex-col gap-2 w-full md:w-8/12 lg:w-4/12">
+          <div className="flex flex-col gap-4 w-full md:w-8/12 lg:w-4/12">
             <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-4">
               <li>
-                Trusted by various client sectors throughout Indonesia,
-                including:
+                Telah dipercaya oleh berbagai sektor klien di seluruh indonesia, termasuk :
               </li>
-              <li>Local Government Agencies</li>
-              <li>National Private Companies</li>
-              <li>Hospitals & Clinics</li>
-              <li>Schools and Universitiess</li>
-              <li>Community Organizations</li>
+              <li>Instansi Pemerintah Daerah</li>
+              <li>Perusahaan Swasta Nasional</li>
+              <li>Rumah Sakit dan Klinik</li>
+              <li>Sekolah dan Universitas</li>
+              <li>Organisasi Kemasyarakatan</li>
             </ul>
             <div className="flex flex-wrap w-full gap-4">
               {clients.map((e) => (
@@ -193,7 +190,7 @@ export default function page() {
           target="_blank"
         >
           <button className="btn border-none bg-green-500 text-white w-full">
-            Download
+            Unduh
           </button>
         </Link>
       </div>

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Clients | Bradwear Indonesia",
+  title: "Klien | Bradwear Indonesia",
   description: "Products Page",
 };
 

@@ -8,10 +8,10 @@ export default function Products() {
       {/* Title */}
       <div className="flex flex-col gap-0">
         <p className="uppercase text-xs lg:text-sm font-regular text-gray-500">
-          best sellers
+          Terlaris
         </p>
         <h2 className="uppercase text-2xl lg:text-4xl font-bold">
-          comfort every day
+          kenyamanan setiap hari
         </h2>
       </div>
       {/* End Title */}

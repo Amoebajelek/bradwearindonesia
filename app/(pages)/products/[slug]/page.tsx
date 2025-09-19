@@ -30,10 +30,13 @@ export default async function Page({
       <div className="flex flex-col h-fit w-full px-6 py-12 lg:p-20 justify-center items-center gap-5">
         {/* Link */}
         <div className="flex justify-center md:justify-start w-full md:w-10/12 lg:w-1/2">
-          <Link href="/products" className="flex gap-2 text-xs lg:text-sm items-center">
+          <Link
+            href="/products"
+            className="flex gap-2 text-xs lg:text-sm items-center"
+          >
             <BsArrowLeft />
             <p className="uppercase font-regular text-gray-500">
-              / Products /{" "}
+              / Katalog /{" "}
               <span className="font-semibold">{product?.name}</span>
             </p>
           </Link>
@@ -68,7 +71,7 @@ export default async function Page({
               className="flex w-full"
             >
               <button className="btn border-none bg-green-500 text-white w-full">
-                Checkout
+                Beli Sekarang
               </button>
             </Link>
           </div>
@@ -134,21 +137,25 @@ export default async function Page({
         {/* Desc */}
         <div className="flex flex-col items-center gap-4 w-full md:w-10/12 lg:w-1/2 h-fit">
           <p className="text-xs lg:text-sm/6 w-full">
-            Stay ready for any mission with our Tactical Shirt — designed for
-            durability, comfort, and performance. Made with high-quality
-            breathable fabric, this shirt features multiple functional pockets,
-            reinforced stitching, and a flexible fit that supports active
-            movement. Perfect for outdoor activities, fieldwork, or professional
-            use, it combines utility with a sharp, professional look.
+            Siap menghadapi misi apa pun dengan Kemeja Taktis kami — dirancang
+            untuk daya tahan, kenyamanan, dan performa. Terbuat dari kain
+            berkualitas tinggi yang menyerap keringat, kemeja ini dilengkapi
+            beberapa saku fungsional, jahitan yang diperkuat, dan potongan
+            fleksibel yang mendukung gerakan aktif. Sempurna untuk aktivitas
+            luar ruangan, kerja lapangan, atau penggunaan profesional, kemeja
+            ini memadukan kegunaan dengan tampilan yang tajam dan profesional.
           </p>
           <div className="flex flex-col w-full">
-            <p className="text-xs lg:text-sm/6 font-regular">Key Features</p>
+            <p className="text-xs lg:text-sm/6 font-regular">Keunggulan :</p>
             <ul className="list-decimal text-xs lg:text-sm/6 font-regular ps-6">
-              <li>Durable and breathable material</li>
-              <li>Multiple secure utility pockets</li>
-              <li>Reinforced stitching for long-lasting wear</li>
-              <li>Comfortable fit for all-day use</li>
-              <li>Suitable for outdoor, tactical, and professional settings</li>
+              <li>Bahan tahan lama dan sirkulasi udara bagus</li>
+              <li>Banyak kantong serbaguna yang aman</li>
+              <li>Jahitan yang diperkuat untuk pemakaian yang tahan lama</li>
+              <li>Nyaman dipakai sepanjang hari</li>
+              <li>
+                Cocok untuk kegiatan dalam dan luar ruangan, taktis dan
+                professional
+              </li>
             </ul>
           </div>
           <Image

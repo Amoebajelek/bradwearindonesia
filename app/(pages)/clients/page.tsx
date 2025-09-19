@@ -15,10 +15,10 @@ export default function page() {
         <div className="flex w-full md:w-10/12 lg:w-8/12">
           <div className="flex flex-col gap-0">
             <p className="uppercase text-xs lg:text-sm font-regular text-gray-500">
-              Clients
+              Pelanggan
             </p>
             <h2 className="uppercase text-2xl lg:text-4xl font-bold">
-              WHAT&apos;S PEOPLE SAY ABOUT US?
+              Apa kata mereka tentang kami?
             </h2>
           </div>
         </div>

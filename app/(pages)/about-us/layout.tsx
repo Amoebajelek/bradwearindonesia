@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "About Us | Bradwear Indonesia",
+  title: "Tentang Kami | Bradwear Indonesia",
   description: "Products Page",
 };
 

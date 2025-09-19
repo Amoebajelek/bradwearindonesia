@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Db from "@/utils/db.json"
+import Db from "@/utils/db.json";
 
 export default function AllProducts() {
   return (
@@ -9,10 +9,10 @@ export default function AllProducts() {
       {/* Title */}
       <div className="flex flex-col gap-0">
         <p className="uppercase text-xs lg:text-sm font-regular text-gray-500">
-          Comfortable and stylish uniforms for daily performance.
+          Seragam yang nyaman dan bergaya untuk kinerja sehari-hari
         </p>
         <h2 className="uppercase text-2xl lg:text-4xl font-bold">
-          Elevate Workplace Standards
+          Tingkatkan Standar Kemeja Kerja
         </h2>
       </div>
       {/* End Title */}
@@ -32,17 +32,17 @@ export default function AllProducts() {
           </div>
           <div className="flex w-fit px-6 py-3 bg-white border border-solid border-gray-100">
             <p className="uppercase text-xs lg:text-sm font-regular text-black">
-              JACKET
+              JAKET
             </p>
           </div>
           <div className="flex w-fit px-6 py-3 bg-white border border-solid border-gray-100">
             <p className="uppercase text-xs lg:text-sm font-regular text-black">
-              VEST
+              ROMPI
             </p>
           </div>
           <div className="flex w-fit px-6 py-3 bg-white border border-solid border-gray-100">
             <p className="uppercase text-xs lg:text-sm font-regular text-black">
-              PANTS
+              CELANA
             </p>
           </div>
           <div className="flex w-fit px-6 py-3 bg-white border border-solid border-gray-100">
@@ -52,7 +52,7 @@ export default function AllProducts() {
           </div>
         </div>
         <p className="text-xs lg:text-sm font-regular text-gray-500">
-          11 Products listed
+          11 Produk tersedia
         </p>
       </div>
       {/* End Categories */}
@@ -76,9 +76,7 @@ export default function AllProducts() {
                 <p className="card-title uppercase text-xl lg:text-2xl font-bold text-green-500">
                   {e.name}
                 </p>
-                <p className="text-slate-500 text-xs font-medium">
-                  {e.sells}
-                </p>
+                <p className="text-slate-500 text-xs font-medium">{e.sells}</p>
               </div>
             </div>
           </Link>
