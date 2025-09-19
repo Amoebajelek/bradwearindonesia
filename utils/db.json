@@ -4,8 +4,12 @@
     "name": "Series Ventura",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-1.webp",
-    "srcSize": "/size-chart-kemeja.jpeg",
+    "src": "/series-ventura-1.webp",
+    "srcImages1": "/series-ventura-2.webp",
+    "srcImages2": "/series-ventura-3.webp",
+    "srcImages3": "/dummy.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
     "srcSpec": "/model-series-ventura.jpeg",
     "category": ["all", "workshirt"],
     "colors": [
@@ -21,74 +25,218 @@
   },
   {
     "id": 1,
-    "name": "Series Yuroi",
+    "name": "Series Yoroi",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-2.webp",
-    "category": ["all", "workshirt"]
+    "src": "/series-yoroi-1.webp",
+    "srcImages1": "/series-yoroi-2.webp",
+    "srcImages2": "/series-yoroi-3.webp",
+    "srcImages3": "/dummy.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/model-series-yoroi.jpeg",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Series 3",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-3.webp",
-    "category": ["all", "workshirt"]
+    "src": "/dummy.webp",
+    "srcImages1": "/dummy.webp",
+    "srcImages2": "/dummy.webp",
+    "srcImages3": "/dummy.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/model-series-3.jpeg",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Series PDH",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-4.webp",
-    "category": ["all", "workshirt"]
+    "src": "/dummy.webp",
+    "srcImages1": "/dummy.webp",
+    "srcImages2": "/dummy.webp",
+    "srcImages3": "/dummy.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/model-series-pdh.jpeg",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Series Robotic",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-5.webp",
-    "category": ["all", "workshirt"]
+    "src": "/dummy.webp",
+    "srcImages1": "/dummy.webp",
+    "srcImages2": "/dummy.webp",
+    "srcImages3": "/dummy.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/model-series-robotic.jpeg",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   },
   {
     "id": 5,
     "name": "Series 4",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-4.webp",
-    "category": ["all", "workshirt"]
+    "src": "/dummy.webp",
+    "srcImages1": "/dummy.webp",
+    "srcImages2": "/dummy.webp",
+    "srcImages3": "/dummy.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/dummy.webp",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   },
   {
     "id": 6,
     "name": "Series Strazard",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-3.webp",
-    "category": ["all", "workshirt"]
+    "src": "/dummy.webp",
+    "srcImages1": "/dummy.webp",
+    "srcImages2": "/dummy.webp",
+    "srcImages3": "/dummy.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/model-series-strazard.jpeg",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   },
   {
     "id": 7,
     "name": "Series 2",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-2.webp",
-    "category": ["all", "workshirt"]
+    "src": "/dummy.webp",
+    "srcImages1": "/dummy.webp",
+    "srcImages2": "/dummy.webp",
+    "srcImages3": "/dummy.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/model-series-2.jpeg",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   },
   {
     "id": 8,
-    "name": "Series V-2",
+    "name": "Series Brad V-2",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-1.webp",
-    "category": ["all", "workshirt"]
+    "src": "/series-brad-v2-1.webp",
+    "srcImages1": "/series-brad-v2-2.webp",
+    "srcImages2": "/series-brad-v2-3.webp",
+    "srcImages3": "/series-brad-v2-4.webp",
+    "srcImages4": "/series-brad-v2-5.web",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/model-series-brad-v2.jpeg",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   },
   {
     "id": 9,
-    "name": "Series V-1",
+    "name": "Series Brad V-1",
     "sells": "2RB+ terjual",
     "desc": "A card component has a figure, a body part, and inside body there are title and actions parts.",
-    "src": "/Carousel-2.webp",
-    "category": ["all", "workshirt"]
+    "src": "/series-brad-v1-1.webp",
+    "srcImages1": "/series-brad-v1-2.webp",
+    "srcImages2": "/series-brad-v1-3.webp",
+    "srcImages3": "/series-brad-v1-4.webp",
+    "srcImages4": "/dummy.webp",
+    "srcImages5": "/dummy.webp",
+    "srcSpec": "/model-series-brad-v1.jpeg",
+    "category": ["all", "workshirt"],
+    "colors": [
+      {
+        "name": "black",
+        "hash": "#252525"
+      },
+      {
+        "name": "white",
+        "hash": "#FFFFFF"
+      }
+    ]
   }
 ]

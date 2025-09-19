@@ -8,7 +8,6 @@ import { BsArrowLeft } from "react-icons/bs";
 import { BsFillStarFill } from "react-icons/bs";
 
 import Size from "@/public/size-chart-kemeja.jpeg";
-import Model from "@/public/model-series-ventura.jpeg";
 import Fabric from "@/public/spesifik-bahan-kain.jpeg";
 
 export default async function Page({
@@ -36,8 +35,7 @@ export default async function Page({
           >
             <BsArrowLeft />
             <p className="uppercase font-regular text-gray-500">
-              / Katalog /{" "}
-              <span className="font-semibold">{product?.name}</span>
+              / Katalog / <span className="font-semibold">{product?.name}</span>
             </p>
           </Link>
         </div>
@@ -90,47 +88,57 @@ export default async function Page({
               className="object-cover"
             />
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-4 gap-2 h-fit">
-            <Image
-              alt={product!.name}
-              src={product!.src}
-              height={0}
-              width={120}
-              loading="lazy"
-              className="object-cover"
-            />
-            <Image
-              alt={product!.name}
-              src={product!.src}
-              height={0}
-              width={120}
-              loading="lazy"
-              className="object-cover"
-            />
-            <Image
-              alt={product!.name}
-              src={product!.src}
-              height={0}
-              width={120}
-              loading="lazy"
-              className="object-cover"
-            />
-            <Image
-              alt={product!.name}
-              src={product!.src}
-              height={0}
-              width={120}
-              loading="lazy"
-              className="object-cover"
-            />
-            <Image
-              alt={product!.name}
-              src={product!.src}
-              height={0}
-              width={120}
-              loading="lazy"
-              className="object-cover"
-            />
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-3 gap-2 h-fit">
+            <div>
+              <Image
+                alt={product!.name}
+                src={product!.srcImages1}
+                height={0}
+                width={120}
+                loading="lazy"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <Image
+                alt={product!.name}
+                src={product!.srcImages2}
+                height={0}
+                width={120}
+                loading="lazy"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <Image
+                alt={product!.name}
+                src={product!.srcImages3}
+                height={0}
+                width={120}
+                loading="lazy"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <Image
+                alt={product!.name}
+                src={product!.srcImages4}
+                height={0}
+                width={120}
+                loading="lazy"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <Image
+                alt={product!.name}
+                src={product!.srcImages5}
+                height={0}
+                width={120}
+                loading="lazy"
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
         {/* End Images */}
@@ -160,7 +168,7 @@ export default async function Page({
           </div>
           <Image
             alt={product!.name}
-            src={Model}
+            src={product!.srcSpec}
             height={320}
             width={500}
             loading="lazy"
